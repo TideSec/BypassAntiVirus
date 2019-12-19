@@ -11,13 +11,56 @@
 
 # 文章导航
 
-1、远控免杀专题文章(1)-基础篇：[https://mp.weixin.qq.com/s/3LZ_cj2gDC1bQATxqBfweg](https://mp.weixin.qq.com/s/3LZ_cj2gDC1bQATxqBfweg)
+1、远控免杀专题(1)-基础篇：[https://mp.weixin.qq.com/s/3LZ_cj2gDC1bQATxqBfweg](https://mp.weixin.qq.com/s/3LZ_cj2gDC1bQATxqBfweg)
 
-2、远控免杀专题文章(2)-msfvenom隐藏的参数：[https://mp.weixin.qq.com/s/1r0iakLpnLrjCrOp2gT10w](https://mp.weixin.qq.com/s/1r0iakLpnLrjCrOp2gT10w)
+2、远控免杀专题(2)-msfvenom隐藏的参数：[https://mp.weixin.qq.com/s/1r0iakLpnLrjCrOp2gT10w](https://mp.weixin.qq.com/s/1r0iakLpnLrjCrOp2gT10w)
+
+3、远控免杀专题(3)-msf自带免杀(VT免杀率35/69)：[https://mp.weixin.qq.com/s/A0CZslLhCLOK_HgkHGcpEA](https://mp.weixin.qq.com/s/A0CZslLhCLOK_HgkHGcpEA)
+
+4、远控免杀专题(4)-Evasion模块(VT免杀率12/71)：[https://mp.weixin.qq.com/s/YnnCM7W20xScv52k_ubxYQ](https://mp.weixin.qq.com/s/YnnCM7W20xScv52k_ubxYQ)
+
+5、远控免杀专题(5)-Veil免杀(VT免杀率23-71):
+
+# 免杀能力一览表
+
+
+序号 | 免杀方法 | VT查杀率 | 360 | QQ | 火绒 | 卡巴 | McAfee | 微软 |  Symantec | 瑞星 | 金山 | 江民 |趋势 
+---|--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |---|---
+1 | 未免杀处理|53/69| | | | | | | | |√ |√|
+2 | msf自编码|51/69 | |√ | | | | | | |√ |√|
+3 | msf自捆绑|39/69| |√ | | | | | | |√ |√|√|
+4 | msf捆绑+编码|35/68|√|√ | | | | | | |√ |√|√|
+5 | msf多重编码|45/70||√| | |√|| | |√ |√|√|
+6 | Evasion模块exe|42/71||√|| |||| |√ |√|√|
+7 | Evasion模块hta|14/59|||√| |||√| |√ |√|√|
+8 | Evasion模块csc|12/71||√|√|√|√||√|√ |√ |√|√|
+9 | Veil原生exe|44/71|√||√||||||√||√|
+10 | Veil+gcc编译|23/71|√|√|√||√||||√|√|√|
+
+
+**几点说明：**
+
+**1、下表中标识 √ 说明相应杀毒软件未检测出病毒，也就是代表了Bypass。**
+
+**2、为了更好的对比效果，大部分测试payload均使用msf的`windows/meterperter/reverse_tcp`模块生成。**
+
+**3、由于本机测试时只是安装了360全家桶和火绒，所以默认情况下360和火绒杀毒情况指的是静态+动态查杀。360杀毒版本`5.0.0.8160`(2019.12.12)，火绒版本`5.0.33.13`(2019.12.12)，360安全卫士`12.0.0.2001`(2019.12.17)。**
+
+**4、其他杀软的检测指标是在`virustotal.com`（简称VT）上在线查杀，所以可能只是代表了静态查杀能力，数据仅供参考，不足以作为免杀的精确判断指标。**
+
+---
 
 # 目标可期
 
 <div align=center><img src=images/0.png width=40% ></div>
+
+---
+
+# 关于我们
+
+对web安全感兴趣的小伙伴可以关注团队官网: http://www.TideSec.com 或关注公众号：
+
+<div align=center><img src=images/ewm.png width=30% ></div>
 
 
 
