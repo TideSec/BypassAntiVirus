@@ -19,7 +19,15 @@
 
 4、远控免杀专题(4)-Evasion模块(VT免杀率12/71)：[https://mp.weixin.qq.com/s/YnnCM7W20xScv52k_ubxYQ](https://mp.weixin.qq.com/s/YnnCM7W20xScv52k_ubxYQ)
 
-5、远控免杀专题(5)-Veil免杀(VT免杀率23-71):
+5、远控免杀专题(5)-Veil免杀(VT免杀率23/71):[https://mp.weixin.qq.com/s/-PHVIAQVyU8QIpHwcpN4yw](https://mp.weixin.qq.com/s/-PHVIAQVyU8QIpHwcpN4yw)
+
+6、远控免杀专题(6)-Venom免杀(VT免杀率11/71):[https://mp.weixin.qq.com/s/CbfxupSWEPB86tBZsmxNCQ](https://mp.weixin.qq.com/s/CbfxupSWEPB86tBZsmxNCQ)
+
+7、远控免杀专题(7)-Shellter免杀(VT免杀率7/69)：[https://mp.weixin.qq.com/s/ASnldn6nk68D4bwkfYm3Gg](https://mp.weixin.qq.com/s/ASnldn6nk68D4bwkfYm3Gg)
+
+8、远控免杀专题(8)-BackDoor-Factory免杀(VT免杀率7-69)：
+
+9、远控免杀专题(9)-Avet免杀(VT免杀率17-71)：
 
 # 免杀能力一览表
 
@@ -35,7 +43,13 @@
 7 | Evasion模块hta|14/59|||√| |||√| |√ |√|√|
 8 | Evasion模块csc|12/71||√|√|√|√||√|√ |√ |√|√|
 9 | Veil原生exe|44/71|√||√||||||√||√|
-10 | Veil+gcc编译|23/71|√|√|√||√||||√|√|√|
+10| Veil+gcc编译|23/71|√|√|√||√||||√|√|√|
+11| Venom-生成exe|19/71||√|√|√|√||||√|√|√|
+12| Venom-生成dll|11/71|√|√|√|√|√|√|||√|√|√|
+13| Shellter免杀|7/69|√|√|√||√||√||√|√|√|
+14| BackDoor-Factory|13/71||√|√||√|√|||√|√|√|
+15| BDF+shellcode|14/71||√|√||√||√||√|√|√|
+16| Avet免杀|17/71|√|√|√||√|||√|√|√|√|
 
 
 **几点说明：**
