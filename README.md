@@ -25,9 +25,9 @@
 
 7、远控免杀专题(7)-Shellter免杀(VT免杀率7/69)：[https://mp.weixin.qq.com/s/ASnldn6nk68D4bwkfYm3Gg](https://mp.weixin.qq.com/s/ASnldn6nk68D4bwkfYm3Gg)
 
-8、远控免杀专题(8)-BackDoor-Factory免杀(VT免杀率7-69)：
+8、远控免杀专题(8)-BackDoor-Factory免杀(VT免杀率13/71)：[https://mp.weixin.qq.com/s/A30JHhXhwe45xV7hv8jvVQ](https://mp.weixin.qq.com/s/A30JHhXhwe45xV7hv8jvVQ)
 
-9、远控免杀专题(9)-Avet免杀(VT免杀率17-71)：
+9、远控免杀专题(9)-Avet免杀(VT免杀率14/71)：
 
 # 免杀能力一览表
 
