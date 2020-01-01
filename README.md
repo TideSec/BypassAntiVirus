@@ -27,7 +27,11 @@
 
 8、远控免杀专题(8)-BackDoor-Factory免杀(VT免杀率13/71)：[https://mp.weixin.qq.com/s/A30JHhXhwe45xV7hv8jvVQ](https://mp.weixin.qq.com/s/A30JHhXhwe45xV7hv8jvVQ)
 
-9、远控免杀专题(9)-Avet免杀(VT免杀率14/71)：
+9、远控免杀专题(9)-Avet免杀(VT免杀率14/71)：[https://mp.weixin.qq.com/s/EIfqAbMC8HoC6xcZP9SXpA](https://mp.weixin.qq.com/s/EIfqAbMC8HoC6xcZP9SXpA)
+
+10、远控免杀专题(10)-TheFatRat免杀(VT免杀率22/70)：
+
+11、远控免杀专题(11)-Avoidz免杀(VT免杀率23/71)：
 
 # 免杀能力一览表
 
@@ -50,6 +54,12 @@
 14| BackDoor-Factory|13/71||√|√||√|√|||√|√|√|
 15| BDF+shellcode|14/71||√|√||√||√||√|√|√|
 16| Avet免杀|17/71|√|√|√||√|||√|√|√|√|
+17| TheFatRat:ps1-exe|22/70||√|√||√|√|√||√|√|√|
+18| TheFatRat:加壳exe|12/70|√|√||√|√|√|√||√|√|√|
+19| TheFatRat:c#-exe|37/71||√|||√|||√|√|√|√|
+20| Avoidz:c#-exe|23/68||√||√|√|||√|√||√|
+21| Avoidz:py-exe|11/68||√||√|√||√||√|√|√|
+22| Avoidz:go-exe|23/71||√||√|√|√|||√|√|√|
 
 
 **几点说明：**
