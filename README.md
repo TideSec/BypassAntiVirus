@@ -31,7 +31,7 @@
 
 9、远控免杀专题(9)-Avet免杀(VT免杀率14/71)：[https://mp.weixin.qq.com/s/EIfqAbMC8HoC6xcZP9SXpA](https://mp.weixin.qq.com/s/EIfqAbMC8HoC6xcZP9SXpA)
 
-10、远控免杀专题(10)-TheFatRat免杀(VT免杀率22/70)：
+10、远控免杀专题(10)-TheFatRat免杀(VT免杀率22/70)：[https://mp.weixin.qq.com/s/zOvwfmEtbkpGWWBn642ICA](https://mp.weixin.qq.com/s/zOvwfmEtbkpGWWBn642ICA)
 
 11、远控免杀专题(11)-Avoidz免杀(VT免杀率23/71)：
 
