@@ -33,7 +33,15 @@
 
 10、远控免杀专题(10)-TheFatRat免杀(VT免杀率22/70)：[https://mp.weixin.qq.com/s/zOvwfmEtbkpGWWBn642ICA](https://mp.weixin.qq.com/s/zOvwfmEtbkpGWWBn642ICA)
 
-11、远控免杀专题(11)-Avoidz免杀(VT免杀率23/71)：
+11、远控免杀专题(11)-Avoidz免杀(VT免杀率23/71)：[https://mp.weixin.qq.com/s/TnfTXihlyv696uCiv3aWfg](https://mp.weixin.qq.com/s/TnfTXihlyv696uCiv3aWfg)
+
+12、远控免杀专题(12)-Green-Hat-Suite免杀(VT免杀率23/70)：[https://mp.weixin.qq.com/s/MVJTXOIqjgL7iEHrnq6OJg](https://mp.weixin.qq.com/s/MVJTXOIqjgL7iEHrnq6OJg)
+
+13、远控免杀专题(13)-zirikatu免杀(VT免杀率39/71)：[https://mp.weixin.qq.com/s/5xLuu5UfF4cQbCq_6JeqyA](https://mp.weixin.qq.com/s/5xLuu5UfF4cQbCq_6JeqyA)
+
+14、远控免杀专题(14)-AVIator免杀(VT免杀率25/69)：
+
+15、远控免杀专题(15)-DKMC免杀(VT免杀率8/55)：
 
 # 免杀能力一览表
 
@@ -62,6 +70,10 @@
 20| Avoidz:c#-exe|23/68||√||√|√|||√|√||√|
 21| Avoidz:py-exe|11/68||√||√|√||√||√|√|√|
 22| Avoidz:go-exe|23/71||√||√|√|√|||√|√|√|
+23| Green-Hat-Suite|23/70||√||√|√|√|||√|√|√|
+24| Zirikatu免杀|39/71|√|√|√|||||√|√|√|√|
+25| AVIator免杀|25/69|√|√|√||√||√|√|√|√|√|
+26| DMKC免杀|8/55||√||√||√|√|√|√|√|√|
 
 
 **几点说明：**
