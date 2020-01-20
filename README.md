@@ -43,7 +43,31 @@
 
 15.远控免杀专题(15)-DKMC免杀(VT免杀率8/55)：[https://mp.weixin.qq.com/s/UZqOBQKEMcXtF5ZU7E55Fg](https://mp.weixin.qq.com/s/UZqOBQKEMcXtF5ZU7E55Fg)
 
-16.远控免杀专题(16)-Unicorn免杀(VT免杀率29/56)：本文
+16.远控免杀专题(16)-Unicorn免杀(VT免杀率29/56)：[https://mp.weixin.qq.com/s/y7P6bvHRFes854EAHAPOzw](https://mp.weixin.qq.com/s/y7P6bvHRFes854EAHAPOzw)
+
+17.远控免杀专题(17)-Python-Rootkit免杀(VT免杀率7/69)：[https://mp.weixin.qq.com/s/OzO8hv0pTX54ex98k96tjQ](https://mp.weixin.qq.com/s/OzO8hv0pTX54ex98k96tjQ)
+
+15.远控免杀专题(15)-DKMC免杀(VT免杀率8/55)：[https://mp.weixin.qq.com/s/UZqOBQKEMcXtF5ZU7E55Fg](https://mp.weixin.qq.com/s/UZqOBQKEMcXtF5ZU7E55Fg)
+
+16.远控免杀专题(16)-Unicorn免杀(VT免杀率29/56)：[https://mp.weixin.qq.com/s/y7P6bvHRFes854EAHAPOzw](https://mp.weixin.qq.com/s/y7P6bvHRFes854EAHAPOzw)
+
+17.远控免杀专题(17)-Python-Rootkit免杀(VT免杀率7/69)：[https://mp.weixin.qq.com/s/OzO8hv0pTX54ex98k96tjQ](https://mp.weixin.qq.com/s/OzO8hv0pTX54ex98k96tjQ)
+
+18.远控免杀专题(18)-ASWCrypter免杀(VT免杀率19/57)：[https://mp.weixin.qq.com/s/tT1i55swRWIYiEdxEWElSQ](https://mp.weixin.qq.com/s/tT1i55swRWIYiEdxEWElSQ)
+
+19.远控免杀专题(19)-nps_payload免杀(VT免杀率3/57)：[https://mp.weixin.qq.com/s/XmSRgRUftMV3nmD1Gk0mvA](https://mp.weixin.qq.com/s/XmSRgRUftMV3nmD1Gk0mvA)
+
+20.远控免杀专题(20)-GreatSCT免杀(VT免杀率14/56)：
+
+21.远控免杀专题(21)-HERCULES免杀(VT免杀率29/70)：
+
+22.远控免杀专题(22)-SpookFlare免杀(VT免杀率16/67)：
+
+23.远控免杀专题(23)-SharpShooter免杀(VT免杀率22/57)：
+
+24.远控免杀专题(24)-CACTUSTORCH免杀(VT免杀率16/67)：
+
+25.远控免杀专题(25)-Winpayloads免杀(VT免杀率18/70)：
 
 # 免杀能力一览表
 
@@ -77,6 +101,16 @@
 25| AVIator免杀|25/69|√|√|√||√||√|√|√|√|√|
 26| DMKC免杀|8/55||√||√||√|√|√|√|√|√|
 27| Unicorn免杀|29/56|||√||||√||√|√|√|
+28| Python-Rootkit免杀|7/69|√|√|√||√||√|√|√|√|√|
+29| ASWCrypter免杀|19/57|√||||√||||√|√|√|
+30| nps_payload免杀|3/56|√|√|√||√|√|√|√|√|√|√|
+31| GreatSct免杀|14/56|√|√|√|||√|√|√|√|√|√|
+32| HERCULES免杀|29/71|||√||||||√||√|
+33| SpookFlare免杀|16/67||√|√|√|√|√|√|√|√||√|
+34| SharpShooter免杀|22/57|√|√||||√|||√|√|√|
+35| CACTUSTORCH免杀|23/57|√|√|√||√||||√|√|√|
+36| Winpayloads免杀|18/70|√|√|√|√|√||√|√|√|√|√|
+
 
 **几点说明：**
 
@@ -86,7 +120,7 @@
 
 **3、由于本机测试时只是安装了360全家桶和火绒，所以默认情况下360和火绒杀毒情况指的是静态+动态查杀。360杀毒版本`5.0.0.8160`(2020.01.01)，火绒版本`5.0.34.16`(2020.01.01)，360安全卫士`12.0.0.2002`(2020.01.01)。**
 
-**4、其他杀软的检测指标是在`virustotal.com`（简称VT）上在线查杀，所以可能只是代表了静态查杀能力，数据仅供参考，不足以作为免杀的精确判断指标。**
+**4、其他杀软的检测指标是在`virustotal.com`（简称VT）上在线查杀，所以可能只是代表了静态查杀能力，数据仅供参考，不足以作为免杀或杀软查杀能力的判断指标。**
 
 **5、完全不必要苛求一种免杀技术能bypass所有杀软，这样的技术肯定是有的，只是没被公开，一旦公开第二天就能被杀了，其实我们只要能bypass目标主机上的杀软就足够了。**
 
