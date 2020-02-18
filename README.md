@@ -4,11 +4,17 @@
 
 **郑重声明：文中所涉及的技术、思路和工具仅供以安全为目的的学习交流使用，任何人不得将其用于非法用途以及盈利等目的，否则后果自行承担！**
 
-一直是从事web安全多一些，对waf绕过还稍微有些研究，但是对远控免杀的认知还大约停留在ASPack、UPX加壳免杀的年代。近两年随着hw和红蓝对抗的增多，接触到的提权、内网渗透、域渗透也越来越多。攻击能力有没有提升不知道，但防护水平明显感觉提升了一大截，先不说防护人员的技术水平如果，最起码各种云WAF、防火墙、隔离设备部署的多了，服务器上也经常能见到安装了杀软、软waf、agent等等，特别是某数字杀软在国内服务器上尤为普及。这个时候，不会点免杀技术就非常吃亏了。
+一直从事web安全多一些，对waf绕过还稍微有些研究，但是对远控免杀的认知还大约停留在ASPack、UPX加壳、特征码定位及修改免杀的年代。近两年随着hw和红蓝对抗的增多，接触到的提权、内网渗透、域渗透也越来越多。攻击能力有没有提升不知道，但防护水平明显感觉提升了一大截，先不说防护人员的技术水平如果，最起码各种云WAF、防火墙、隔离设备部署的多了，服务器上也经常能见到安装了杀软、软waf、agent等等，特别是某数字杀软在国内服务器上尤为普及。这个时候，不会点免杀技术就非常吃亏了。
 
-但是因为对逆向和二进制都不大熟，编译运行别人的代码都比较费劲，这时候就只能靠现成的工具来曲线救国了。为此，从互联网上搜集了二三十种免杀的方法，对msf或CS进行免杀测试，大部分都是互联网已有的方法，感谢大佬们的无私分享，我只是进行了重新汇总整理。
+但web狗一般对逆向和二进制都不大熟，编译运行别人的代码都比较费劲，这时候就只能靠现成的工具来曲线救国了。为此，我从互联网上搜集了大约20款知名度比较高的免杀工具研究免杀原理及免杀效果测试，后面还学习了一下各种语言编译加载shellcode的各种姿势，又补充了一些白名单加载payload的常见利用，于是就有了这一个远控免杀的系列文章。
 
-实验主要是使用了metasploit或cobaltstrike生成的代码或程序进行免杀处理，在实验机器上安装了360全家桶和火绒进行本地测试，在`https://www.virustotal.com/`上进行在线查杀。
+- **工具篇内容**：msf自免杀、Veil、Venom、Shellter、BackDoor-Factory、Avet、TheFatRat、Avoidz、Green-Hat-Suite、zirikatu、AVIator、DKMC、Unicorn、Python-Rootkit、DKMC、Unicorn、Python-Rootkit、ASWCrypter、nps_payload、GreatSCT、HERCULES、SpookFlare、SharpShooter、CACTUSTORCH、Winpayload等。
+
+- **代码篇内容**：C/C++、C#、python、powershell、ruby、go等。
+
+- **白名单内容**：MsBuild、Msiexec、mshta、InstallUtil、rundll32、Regsvr32、Cmstp、Wmic、CSC、Regasm、Regsvcs、Control、Msxsl、Odbcconf、Compiler等。
+
+**已完成的免杀文章及相关软件下载：[`https://github.com/TideSec/BypassAntiVirus`](https://github.com/TideSec/BypassAntiVirus)**
 
 
 # 文章导航
@@ -47,27 +53,21 @@
 
 17.远控免杀专题(17)-Python-Rootkit免杀(VT免杀率7/69)：[https://mp.weixin.qq.com/s/OzO8hv0pTX54ex98k96tjQ](https://mp.weixin.qq.com/s/OzO8hv0pTX54ex98k96tjQ)
 
-15.远控免杀专题(15)-DKMC免杀(VT免杀率8/55)：[https://mp.weixin.qq.com/s/UZqOBQKEMcXtF5ZU7E55Fg](https://mp.weixin.qq.com/s/UZqOBQKEMcXtF5ZU7E55Fg)
-
-16.远控免杀专题(16)-Unicorn免杀(VT免杀率29/56)：[https://mp.weixin.qq.com/s/y7P6bvHRFes854EAHAPOzw](https://mp.weixin.qq.com/s/y7P6bvHRFes854EAHAPOzw)
-
-17.远控免杀专题(17)-Python-Rootkit免杀(VT免杀率7/69)：[https://mp.weixin.qq.com/s/OzO8hv0pTX54ex98k96tjQ](https://mp.weixin.qq.com/s/OzO8hv0pTX54ex98k96tjQ)
-
 18.远控免杀专题(18)-ASWCrypter免杀(VT免杀率19/57)：[https://mp.weixin.qq.com/s/tT1i55swRWIYiEdxEWElSQ](https://mp.weixin.qq.com/s/tT1i55swRWIYiEdxEWElSQ)
 
 19.远控免杀专题(19)-nps_payload免杀(VT免杀率3/57)：[https://mp.weixin.qq.com/s/XmSRgRUftMV3nmD1Gk0mvA](https://mp.weixin.qq.com/s/XmSRgRUftMV3nmD1Gk0mvA)
 
-20.远控免杀专题(20)-GreatSCT免杀(VT免杀率14/56)：
+20.远控免杀专题(20)-GreatSCT免杀(VT免杀率14/56)：[https://mp.weixin.qq.com/s/s9DFRIgpvpE-_MneO0B_FQ](https://mp.weixin.qq.com/s/s9DFRIgpvpE-_MneO0B_FQ)
 
-21.远控免杀专题(21)-HERCULES免杀(VT免杀率29/70)：
+21.远控免杀专题(21)-HERCULES免杀(VT免杀率29/70)：[https://mp.weixin.qq.com/s/Rkr9lixzL4tiL89r10ndig](https://mp.weixin.qq.com/s/Rkr9lixzL4tiL89r10ndig)
 
-22.远控免杀专题(22)-SpookFlare免杀(VT免杀率16/67)：
+22.远控免杀专题(22)-SpookFlare免杀(VT免杀率16/67)：[https://mp.weixin.qq.com/s/LfuQ2XuD7YHUWJqMRUmNVA](https://mp.weixin.qq.com/s/LfuQ2XuD7YHUWJqMRUmNVA)
 
-23.远控免杀专题(23)-SharpShooter免杀(VT免杀率22/57)：
+23.远控免杀专题(23)-SharpShooter免杀(VT免杀率22/57)：[https://mp.weixin.qq.com/s/EyvGfWXLbxkHe7liaNFhGg](https://mp.weixin.qq.com/s/EyvGfWXLbxkHe7liaNFhGg)
 
-24.远控免杀专题(24)-CACTUSTORCH免杀(VT免杀率16/67)：
+24.远控免杀专题(24)-CACTUSTORCH免杀(VT免杀率23/57)：[https://mp.weixin.qq.com/s/g0CYvFMsrV7bHIfTnSUJBw](https://mp.weixin.qq.com/s/g0CYvFMsrV7bHIfTnSUJBw)
 
-25.远控免杀专题(25)-Winpayloads免杀(VT免杀率18/70)：
+25.远控免杀专题(25)-Winpayloads免杀(VT免杀率18/70)：本文
 
 # 免杀能力一览表
 
@@ -110,7 +110,47 @@
 34| SharpShooter免杀|22/57|√|√||||√|||√|√|√|
 35| CACTUSTORCH免杀|23/57|√|√|√||√||||√|√|√|
 36| Winpayloads免杀|18/70|√|√|√|√|√||√|√|√|√|√|
-
+37|C/C++1:指针执行|23/71|√|√|||√||√||√||√|
+38|C/C++2:动态内存|24/71|√|√|||√||√||√||√|
+39|C/C++3:嵌入汇编|12/71|√|√|√||√|√|√||√|√|√|
+40|C/C++4:强制转换|9/70|√|√|√||√|√|√|√|√|√|√|
+41|C/C++5:汇编花指令|12/69|√|√|√||√|√|√||√|√|√|
+42|C/C++6:XOR加密|15/71|√|√|√||√||√|√|√|√|√|
+43|C/C++7:base64加密1|28/69|√|√|√||√||√||√|√|√|
+44|C/C++8:base64加密2|28/69|√|√|√||√||√||√||√|
+45|C/C++9:python+汇编|8/70|√|√|√|√|√|√|√|√|√|√|√|
+46|C/C++10:python+xor|15/69|√|√|√|√|√||√|√|√|√|√|
+47|C/C++11:sc_launcher|3/71|√|√|√|√|√|√|√|√|√|√|√|
+48|C/C++12:使用SSI加载|6/69|√|√|√|√|√|√|√||√|√|√|
+49|C# 法1:编译执行|20/71|√|√|√||√||√|√|√|√|√|
+50|C# 法2:自实现加密|8/70|√|√|√|√|√|√|√|√|√|√|√|
+51|C# 法3:XOR/AES加密|14/71|√|√|√||√||√|√|√|√|√|
+52|C# 法4:CSC编译|33/71|√|√|√|||||√|√|√|√|
+53|py 法1:嵌入C代码|19/70|√|√|√|||√||√|√|√|√|
+54|py 法2:py2exe编译|10/69|√|√|√||√||√|√|√|√|√|
+55|py 法3:base64加密|16/70|√|√|√|√||||√|√|√|√|
+56|py 法4:py+C编译|18/69||√|√|||||√|√|√|√|
+57|py 法5:xor编码|19/71|√|√|√|||||√|√|√|√|
+58|py 法6:aes加密|19/71|√|√|√|||||√|√|√|√|
+59|py 法7:HEX加载|3/56|√|√|√|√|√||√|√|√|√|√|
+60|py 法8:base64加载|4/58|√|√|√|√|√||√|√|√|√|√|
+61|ps 法1:msf原生|18/56|√|√|√|||||√|√|√|√|
+62|ps 法2:SC加载|0/58|√|√|√|√|√|√|√|√|√|√|√|
+63|ps 法3:PS1编码|3/58|√|√|√||√|√|√|√|√|√|√|
+64|ps 法4:行为免杀|0/58|√|√|√|√|√|√|√|√|√|√|√|
+65|go 法1:嵌入C代码|3/71|√|√|√|√|√||√|√|√||√|
+66|go 法2:sc加载|4/69|√|√|√|√|√|√|√|√|√||√|
+67|go 法3:gsl加载|6/71|√|√|√|√|√|√|√|√|√|√|√|
+68|ruby加载|0/58|√|√|√|√|√|√|√|√|√|√|√|
+69|MSBuild 代码1|4/57|√|√|√||√|√||√|√|√|√|
+70|MSBuild 代码2|18/58|√|√|√||||√||√|√|√|
+71|Msiexec 法1|22/60|√|√|√||||√||√|√|√|
+72|Msiexec 法2|29/58|√|√|√||||√||√|√||
+73|InstallUtil 法1|33/71|√|√|√|||||√|√|√|√|
+74|InstallUtil 法2|3/68|√|√|√|√|√|√|√|√|√|√|√|
+75|Mshta 法1|28/58||||||√|||√|√|√|
+76|Mshta 法2|28/58||||||√|||√|√|√|
+77|Mshta 法3|26/58|√|√|√||||||√|√|√|
 
 **几点说明：**
 
