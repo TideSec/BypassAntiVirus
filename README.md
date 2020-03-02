@@ -4,6 +4,8 @@
 
 **郑重声明：文中所涉及的技术、思路和工具仅供以安全为目的的学习交流使用，任何人不得将其用于非法用途以及盈利等目的，否则后果自行承担！**
 
+---
+
 一直从事web安全多一些，对waf绕过还稍微有些研究，但是对远控免杀的认知还大约停留在ASPack、UPX加壳、特征码定位及修改免杀的年代。近两年随着hw和红蓝对抗的增多，接触到的提权、内网渗透、域渗透也越来越多。攻击能力有没有提升不知道，但防护水平明显感觉提升了一大截，先不说防护人员的技术水平如果，最起码各种云WAF、防火墙、隔离设备部署的多了，服务器上也经常能见到安装了杀软、软waf、agent等等，特别是某数字杀软在国内服务器上尤为普及。这个时候，不会点免杀技术就非常吃亏了。
 
 但web狗一般对逆向和二进制都不大熟，编译运行别人的代码都比较费劲，这时候就只能靠现成的工具来曲线救国了。为此，我从互联网上搜集了大约20款知名度比较高的免杀工具研究免杀原理及免杀效果测试，后面还学习了一下各种语言编译加载shellcode的各种姿势，又补充了一些白名单加载payload的常见利用，于是就有了这一个远控免杀的系列文章。
@@ -12,7 +14,7 @@
 
 - **代码篇内容**：C/C++、C#、python、powershell、ruby、go等。
 
-- **白名单内容**：MsBuild、Msiexec、mshta、InstallUtil、rundll32、Regsvr32、Cmstp、Wmic、CSC、Regasm、Regsvcs、Control、Msxsl、Odbcconf、Compiler等。
+- **白名单内容**：已写的：Rundll32.exe、Msiexec.exe、MSBuild.exe、InstallUtil.exe、Mshta.exe、Regsvr32.exe、Cmstp.exe、CScript.exe、WScript.exe、Forfiles.exe、te.exe、Odbcconf.exe、InfDefaultInstall.exe、Diskshadow.exe、PsExec、Msdeploy.exe、Winword.exe、Regasm.exe、Regsvcs.exe、Ftp.exe、pubprn.vbs、winrm.vbs、slmgr.vbs、Xwizard.exe、Compiler.exe、IEExec、MavInject32、Presentationhost.exe、Wmic.exe、Pcalua.exe、Url.dll、zipfldr.dll、Syncappvpublishingserver.exe等。
 
 **已完成的免杀文章及相关软件下载：[`https://github.com/TideSec/BypassAntiVirus`](https://github.com/TideSec/BypassAntiVirus)**
 
@@ -67,116 +69,120 @@
 
 24.远控免杀专题(24)-CACTUSTORCH免杀(VT免杀率23/57)：[https://mp.weixin.qq.com/s/g0CYvFMsrV7bHIfTnSUJBw](https://mp.weixin.qq.com/s/g0CYvFMsrV7bHIfTnSUJBw)
 
-25.远控免杀专题(25)-Winpayloads免杀(VT免杀率18/70)：本文
+25.远控免杀专题(25)-Winpayloads免杀(VT免杀率18/70)：[https://mp.weixin.qq.com/s/YTXT31mCOWhMZEbCg4Jt0w](https://mp.weixin.qq.com/s/YTXT31mCOWhMZEbCg4Jt0w)
+
+26.远控免杀专题(26)-C、C++加载shellcode免杀(上)(VT免杀率9-70)：
+
+27.远控免杀专题(27)-C、C++加载shellcode免杀(中)(VT免杀率8-70)：
+
+28.远控免杀专题(28)-C、C++加载shellcode免杀(下)(VT免杀率3-71)：
+
+29.远控免杀专题(29)-C#加载shellcode免杀-5种方式(VT免杀率8-70)：
+
+30.远控免杀专题(30)-Python加载shellcode免杀-8种方式(VT免杀率10-69)：
+
+31.远控免杀专题(31)-powershell加载shellcode免杀-4种方式(VT免杀率5-58)：
+
+32.远控免杀专题(32)-Go加载shellcode免杀-3种方式(VT免杀率7-70)：
+
+33.远控免杀专题(33)-Ruby加载shellcode免杀(VT免杀率0-58)：
+
+34.远控免杀专题(34)-白名单MSBuild.exe执行payload(VT免杀率4-57)：[https://mp.weixin.qq.com/s/1WEglPXm1Q5n6T-c4OhhXA](https://mp.weixin.qq.com/s/1WEglPXm1Q5n6T-c4OhhXA)
+
+35.远控免杀专题(35)-白名单Msiexec.exe执行payload(VT免杀率27-60)：[https://mp.weixin.qq.com/s/XPrBK1Yh5ggO-PeK85mqcg](https://mp.weixin.qq.com/s/XPrBK1Yh5ggO-PeK85mqcg)
+
+36.远控免杀专题(36)-白名单InstallUtil.exe执行payload(VT免杀率3-68)：[https://mp.weixin.qq.com/s/gN2p3ZHODZFia2761BVSzg](https://mp.weixin.qq.com/s/gN2p3ZHODZFia2761BVSzg)
+
+37.远控免杀专题(37)-白名单Mshta.exe执行payload(VT免杀率26-58)：[https://mp.weixin.qq.com/s/oBr-syv2ef5IjeGFrs7sHg](https://mp.weixin.qq.com/s/oBr-syv2ef5IjeGFrs7sHg)
+
+38.远控免杀专题(38)-白名单Rundll32.exe执行payload(VT免杀率22-58)：[https://mp.weixin.qq.com/s/rmC4AWC6HmcphozfEZhRGA](https://mp.weixin.qq.com/s/rmC4AWC6HmcphozfEZhRGA)
+
+39.远控免杀专题(39)-白名单Regsvr32.exe执行payload(VT免杀率18-58)：[https://mp.weixin.qq.com/s/6v8w2YZLxHJFnXb-IbnYAA](https://mp.weixin.qq.com/s/6v8w2YZLxHJFnXb-IbnYAA)
+
+40.远控免杀专题(40)-白名单Cmstp.exe执行payload(VT查杀率为21-57)：[https://mp.weixin.qq.com/s/tgtvOMDGlKFwdRQEnKJf5Q](https://mp.weixin.qq.com/s/tgtvOMDGlKFwdRQEnKJf5Q)
+
+41.远控免杀专题(41)-白名单Ftp.exe执行payload：
+
+42.远控免杀专题(42)-白名单Regasm.exe-Regsvcs.exe执行payload：
+
+43.远控免杀专题(43)-白名单Compiler.exe执行payload：
+
+44.远控免杀专题(44)-白名单MavInject.exe执行payload：
+
+45.远控免杀专题(45)-白名单presentationhost.exe执行payload：
+
+46.远控免杀专题(46)-白名单IEexec.exe执行payload(VT免杀率25-69)：
+
+47.远控免杀专题(47)-白名单winrm.vbs、slmgr.vbs执行payload：
+
+48.远控免杀专题(48)-白名单pubprn.vbs执行payload：
+
+49.远控免杀专题(49)-白名单Xwizard.exe执行payload：
+
+50.远控免杀专题(50)-白名单winword.exe执行payload：
+
+51.远控免杀专题(51)-白名单msdeloy.exe执行payload：
+
+52.远控免杀专题(52)-白名单psexec.exe执行payload：
+
+53.远控免杀专题(53)-白名单WMIC.exe执行payload：
+
+54.远控免杀专题(54)-白名单SyncAppvPublishingServer.vbs执行payload：
+
+55.远控免杀专题(55)-白名单Pcalua.exe执行payload：
+
+56.远控免杀专题(56)-白名单zipfldr.dll执行payload：
+
+57.远控免杀专题(57)-白名单Url.dll执行payload：
+
+58.远控免杀专题(58)-白名单DiskShadow.exe执行payload：
+
+59.远控免杀专题(59)-白名单Odbcconf.exe执行payload：
+
+60.远控免杀专题(60)-白名单Forfiles.exe执行payload：
+
+61.远控免杀专题(61)-白名单Te.exe执行payload：
+
+62.远控免杀专题(62)-白名单CScript.exe-WScript.exe执行payload：
+
+63.远控免杀专题(63)-白名单InfDefaultInstall.exe执行payload：
+
+64.远控免杀专题(64)-Msf自编译免杀补充(VT免杀率33-69)：[https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg](https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg)
+
+65.远控免杀专题(65)-工具篇总结：[https://mp.weixin.qq.com/s/WdErH1AOaI3B5Kptu7DK5Q](https://mp.weixin.qq.com/s/WdErH1AOaI3B5Kptu7DK5Q)
+
+
 
 # 免杀能力一览表
 
 
-序号 | 免杀方法 | VT查杀率 | 360 | QQ | 火绒 | 卡巴 | McAfee | 微软 |  Symantec | 瑞星 | 金山 | 江民 |趋势 
----|--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |---
-1 | 未免杀处理|53/69| | | | | | | | |√ |√|
-2 | msf自编码|51/69 | |√ | | | | | | |√ |√|
-3 | msf自捆绑|39/69| |√ | | | | | | |√ |√|√|
-4 | msf捆绑+编码|35/68|√|√ | | | | | | |√ |√|√|
-5 | msf多重编码|45/70||√| | |√|| | |√ |√|√|
-6 | Evasion模块exe|42/71||√|| |||| |√ |√|√|
-7 | Evasion模块hta|14/59|||√| |||√| |√ |√|√|
-8 | Evasion模块csc|12/71||√|√|√|√||√|√ |√ |√|√|
-9 | Veil原生exe|44/71|√||√||||||√||√|
-10| Veil+gcc编译|23/71|√|√|√||√||||√|√|√|
-11| Venom-生成exe|19/71||√|√|√|√||||√|√|√|
-12| Venom-生成dll|11/71|√|√|√|√|√|√|||√|√|√|
-13| Shellter免杀|7/69|√|√|√||√||√||√|√|√|
-14| BackDoor-Factory|13/71||√|√||√|√|||√|√|√|
-15| BDF+shellcode|14/71||√|√||√||√||√|√|√|
-16| Avet免杀|17/71|√|√|√||√|||√|√|√|√|
-17| TheFatRat:ps1-exe|22/70||√|√||√|√|√||√|√|√|
-18| TheFatRat:加壳exe|12/70|√|√||√|√|√|√||√|√|√|
-19| TheFatRat:c#-exe|37/71||√|||√|||√|√|√|√|
-20| Avoidz:c#-exe|23/68||√||√|√|||√|√||√|
-21| Avoidz:py-exe|11/68||√||√|√||√||√|√|√|
-22| Avoidz:go-exe|23/71||√||√|√|√|||√|√|√|
-23| Green-Hat-Suite|23/70||√||√|√|√|||√|√|√|
-24| Zirikatu免杀|39/71|√|√|√|||||√|√|√|√|
-25| AVIator免杀|25/69|√|√|√||√||√|√|√|√|√|
-26| DMKC免杀|8/55||√||√||√|√|√|√|√|√|
-27| Unicorn免杀|29/56|||√||||√||√|√|√|
-28| Python-Rootkit免杀|7/69|√|√|√||√||√|√|√|√|√|
-29| ASWCrypter免杀|19/57|√||||√||||√|√|√|
-30| nps_payload免杀|3/56|√|√|√||√|√|√|√|√|√|√|
-31| GreatSct免杀|14/56|√|√|√|||√|√|√|√|√|√|
-32| HERCULES免杀|29/71|||√||||||√||√|
-33| SpookFlare免杀|16/67||√|√|√|√|√|√|√|√||√|
-34| SharpShooter免杀|22/57|√|√||||√|||√|√|√|
-35| CACTUSTORCH免杀|23/57|√|√|√||√||||√|√|√|
-36| Winpayloads免杀|18/70|√|√|√|√|√||√|√|√|√|√|
-37|C/C++1:指针执行|23/71|√|√|||√||√||√||√|
-38|C/C++2:动态内存|24/71|√|√|||√||√||√||√|
-39|C/C++3:嵌入汇编|12/71|√|√|√||√|√|√||√|√|√|
-40|C/C++4:强制转换|9/70|√|√|√||√|√|√|√|√|√|√|
-41|C/C++5:汇编花指令|12/69|√|√|√||√|√|√||√|√|√|
-42|C/C++6:XOR加密|15/71|√|√|√||√||√|√|√|√|√|
-43|C/C++7:base64加密1|28/69|√|√|√||√||√||√|√|√|
-44|C/C++8:base64加密2|28/69|√|√|√||√||√||√||√|
-45|C/C++9:python+汇编|8/70|√|√|√|√|√|√|√|√|√|√|√|
-46|C/C++10:python+xor|15/69|√|√|√|√|√||√|√|√|√|√|
-47|C/C++11:sc_launcher|3/71|√|√|√|√|√|√|√|√|√|√|√|
-48|C/C++12:使用SSI加载|6/69|√|√|√|√|√|√|√||√|√|√|
-49|C# 法1:编译执行|20/71|√|√|√||√||√|√|√|√|√|
-50|C# 法2:自实现加密|8/70|√|√|√|√|√|√|√|√|√|√|√|
-51|C# 法3:XOR/AES加密|14/71|√|√|√||√||√|√|√|√|√|
-52|C# 法4:CSC编译|33/71|√|√|√|||||√|√|√|√|
-53|py 法1:嵌入C代码|19/70|√|√|√|||√||√|√|√|√|
-54|py 法2:py2exe编译|10/69|√|√|√||√||√|√|√|√|√|
-55|py 法3:base64加密|16/70|√|√|√|√||||√|√|√|√|
-56|py 法4:py+C编译|18/69||√|√|||||√|√|√|√|
-57|py 法5:xor编码|19/71|√|√|√|||||√|√|√|√|
-58|py 法6:aes加密|19/71|√|√|√|||||√|√|√|√|
-59|py 法7:HEX加载|3/56|√|√|√|√|√||√|√|√|√|√|
-60|py 法8:base64加载|4/58|√|√|√|√|√||√|√|√|√|√|
-61|ps 法1:msf原生|18/56|√|√|√|||||√|√|√|√|
-62|ps 法2:SC加载|0/58|√|√|√|√|√|√|√|√|√|√|√|
-63|ps 法3:PS1编码|3/58|√|√|√||√|√|√|√|√|√|√|
-64|ps 法4:行为免杀|0/58|√|√|√|√|√|√|√|√|√|√|√|
-65|go 法1:嵌入C代码|3/71|√|√|√|√|√||√|√|√||√|
-66|go 法2:sc加载|4/69|√|√|√|√|√|√|√|√|√||√|
-67|go 法3:gsl加载|6/71|√|√|√|√|√|√|√|√|√|√|√|
-68|ruby加载|0/58|√|√|√|√|√|√|√|√|√|√|√|
-69|MSBuild 代码1|4/57|√|√|√||√|√||√|√|√|√|
-70|MSBuild 代码2|18/58|√|√|√||||√||√|√|√|
-71|Msiexec 法1|22/60|√|√|√||||√||√|√|√|
-72|Msiexec 法2|29/58|√|√|√||||√||√|√||
-73|InstallUtil 法1|33/71|√|√|√|||||√|√|√|√|
-74|InstallUtil 法2|3/68|√|√|√|√|√|√|√|√|√|√|√|
-75|Mshta 法1|28/58||||||√|||√|√|√|
-76|Mshta 法2|28/58||||||√|||√|√|√|
-77|Mshta 法3|26/58|√|√|√||||||√|√|√|
-
-**几点说明：**
-
-**1、下表中标识 √ 说明相应杀毒软件未检测出病毒，也就是代表了Bypass。**
+**1、表中标识 √ 说明相应杀毒软件未检测出病毒，也就是代表了Bypass。**
 
 **2、为了更好的对比效果，大部分测试payload均使用msf的`windows/meterperter/reverse_tcp`模块生成。**
 
 **3、由于本机测试时只是安装了360全家桶和火绒，所以默认情况下360和火绒杀毒情况指的是静态+动态查杀。360杀毒版本`5.0.0.8160`(2020.01.01)，火绒版本`5.0.34.16`(2020.01.01)，360安全卫士`12.0.0.2002`(2020.01.01)。**
 
-**4、其他杀软的检测指标是在`virustotal.com`（简称VT）上在线查杀，所以可能只是代表了静态查杀能力，数据仅供参考，不足以作为免杀或杀软查杀能力的判断指标。**
+**4、其他杀软的检测指标是在`virustotal.com`（简称VT）上在线查杀，所以可能只是代表了静态查杀能力，数据仅供参考，不足以作为杀软查杀能力或免杀能力的判断指标。**
 
 **5、完全不必要苛求一种免杀技术能bypass所有杀软，这样的技术肯定是有的，只是没被公开，一旦公开第二天就能被杀了，其实我们只要能bypass目标主机上的杀软就足够了。**
 
+**6、由于白名单程序加载payload的免杀测试需要杀软的行为检测才合理，静态查杀payload或者查杀白名单程序都没有任何意义，所以这里对白名单程序的免杀效果不做评判。**
+
+![screenshot](images/msnl01.png)
+![screenshot](images/msnl02.png)
+
 ---
 
-# 目标可期
+# 关于Tide安全团队
 
-<div align=center><img src=images/0.png width=40% ></div>
+Tide安全团队致力于分享高质量原创文章，研究方向覆盖网络攻防、Web安全、移动终端、安全开发、IoT/物联网/工控安全等多个领域，对安全感兴趣的小伙伴可以关注或加入我们。
 
----
+Tide安全团队自研开源多套安全平台，如Tide(潮汐)网络空间搜索平台、潮启移动端安全管控平台、分布式web扫描平台WDScanner、Mars网络威胁监测平台、潮汐指纹识别系统、潮巡自动化漏洞挖掘平台、工业互联网安全监测平台、漏洞知识库、代理资源池、字典权重库、内部培训系统等等。
 
-# 关于我们
+Tide安全团队自建立之初持续向CNCERT、CNVD、漏洞盒子、补天、各大SRC等漏洞提交平台提交漏洞，在漏洞盒子先后组建的两支漏洞挖掘团队在全国300多个安全团队中均拥有排名前十的成绩。团队成员在FreeBuf、安全客、安全脉搏、t00ls、简书、CSDN、51CTO、CnBlogs等网站开设专栏或博客，研究安全技术、分享经验技能。
 
-对web安全感兴趣的小伙伴可以关注团队官网: http://www.TideSec.com 或关注公众号：
+对安全感兴趣的小伙伴可以关注Tide安全团队Wiki：[http://paper.TideSec.com](http://paper.TideSec.com) 或团队公众号。
 
 <div align=center><img src=images/ewm.png width=30% ></div>
-
 
 
