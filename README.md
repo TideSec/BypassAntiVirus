@@ -111,7 +111,7 @@
 
 45.远控免杀专题(45)-白名单presentationhost.exe执行payload：
 
-46.远控免杀专题(46)-白名单IEexec.exe执行payload(VT免杀率25-69)：
+46.远控免杀专题(46)-白名单IEexec.exe执行payload：
 
 47.远控免杀专题(47)-白名单winrm.vbs、slmgr.vbs执行payload：
 
@@ -147,7 +147,7 @@
 
 63.远控免杀专题(63)-白名单InfDefaultInstall.exe执行payload：
 
-64.远控免杀专题(64)-Msf自编译免杀补充(VT免杀率33-69)：[https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg](https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg)
+64.远控免杀专题(64)-Msf自编译免杀补充：[https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg](https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg)
 
 65.远控免杀专题(65)-工具篇总结：[https://mp.weixin.qq.com/s/WdErH1AOaI3B5Kptu7DK5Q](https://mp.weixin.qq.com/s/WdErH1AOaI3B5Kptu7DK5Q)
 
