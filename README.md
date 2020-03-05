@@ -14,10 +14,27 @@
 
 - **代码篇内容**：C/C++、C#、python、powershell、ruby、go等。
 
-- **白名单内容**：Rundll32.exe、Msiexec.exe、MSBuild.exe、InstallUtil.exe、Mshta.exe、Regsvr32.exe、Cmstp.exe、CScript.exe、WScript.exe、Forfiles.exe、te.exe、Odbcconf.exe、InfDefaultInstall.exe、Diskshadow.exe、PsExec、Msdeploy.exe、Winword.exe、Regasm.exe、Regsvcs.exe、Ftp.exe、pubprn.vbs、winrm.vbs、slmgr.vbs、Xwizard.exe、Compiler.exe、IEExec、MavInject32、Presentationhost.exe、Wmic.exe、Pcalua.exe、Url.dll、zipfldr.dll、Syncappvpublishingserver.exe等。
+- **白名单内容**：总计涉及117个白名单程序，包括Rundll32.exe、Msiexec.exe、MSBuild.exe、InstallUtil.exe、Mshta.exe、Regsvr32.exe、Cmstp.exe、CScript.exe、WScript.exe、Forfiles.exe、te.exe、Odbcconf.exe、InfDefaultInstall.exe、Diskshadow.exe、PsExec.exe、Msdeploy.exe、Winword.exe、Regasm.exe、Regsvcs.exe、Ftp.exe、pubprn.vbs、winrm.vbs、slmgr.vbs、Xwizard.exe、Compiler.exe、IEExec.exe、MavInject32、Presentationhost.exe、Wmic.exe、Pcalua.exe、Url.dll、zipfldr.dll、Syncappvpublishingserver.vbs等。
 
 **已完成的免杀文章及相关软件下载：[`https://github.com/TideSec/BypassAntiVirus`](https://github.com/TideSec/BypassAntiVirus)**
 
+# 免杀能力一览表
+
+
+**1、表中标识 √ 说明相应杀毒软件未检测出病毒，也就是代表了Bypass。**
+
+**2、为了更好的对比效果，大部分测试payload均使用msf的`windows/meterperter/reverse_tcp`模块生成。**
+
+**3、由于本机测试时只是安装了360全家桶和火绒，所以默认情况下360和火绒杀毒情况指的是静态+动态查杀。360杀毒版本`5.0.0.8160`(2020.01.01)，火绒版本`5.0.34.16`(2020.01.01)，360安全卫士`12.0.0.2002`(2020.01.01)。**
+
+**4、其他杀软的检测指标是在`virustotal.com`（简称VT）上在线查杀，所以可能只是代表了静态查杀能力，数据仅供参考，不足以作为杀软查杀能力或免杀能力的判断指标。**
+
+**5、完全不必要苛求一种免杀技术能bypass所有杀软，这样的技术肯定是有的，只是没被公开，一旦公开第二天就能被杀了，其实我们只要能bypass目标主机上的杀软就足够了。**
+
+**6、由于白名单程序加载payload的免杀测试需要杀软的行为检测才合理，静态查杀payload或者查杀白名单程序都没有任何意义，所以这里对白名单程序的免杀效果不做评判。**
+
+![screenshot](images/msnl01.png)
+![screenshot](images/msnl02.png)
 
 # 文章导航
 
@@ -71,15 +88,15 @@
 
 25.远控免杀专题(25)-Winpayloads免杀(VT免杀率18/70)：[https://mp.weixin.qq.com/s/YTXT31mCOWhMZEbCg4Jt0w](https://mp.weixin.qq.com/s/YTXT31mCOWhMZEbCg4Jt0w)
 
-26.远控免杀专题(26)-C、C++加载shellcode免杀(上)(VT免杀率9-70)：
+26.远控免杀专题(26)-C、C++加载shellcode免杀(上)(VT免杀率9-70)：[https://mp.weixin.qq.com/s/LftwV4bpuikDklIjuRw2LQ](https://mp.weixin.qq.com/s/LftwV4bpuikDklIjuRw2LQ)
 
-27.远控免杀专题(27)-C、C++加载shellcode免杀(中)(VT免杀率8-70)：
+27.远控免杀专题(27)-C、C++加载shellcode免杀(中)(VT免杀率8-70)：[https://mp.weixin.qq.com/s/McVWP386q5in6cQ8hRxwdA](https://mp.weixin.qq.com/s/McVWP386q5in6cQ8hRxwdA)
 
-28.远控免杀专题(28)-C、C++加载shellcode免杀(下)(VT免杀率3-71)：
+28.远控免杀专题(28)-C、C++加载shellcode免杀(下)(VT免杀率3-71)：[https://mp.weixin.qq.com/s/Kw3-fdyHyiettYn44WNZQw](https://mp.weixin.qq.com/s/Kw3-fdyHyiettYn44WNZQw)
 
-29.远控免杀专题(29)-C#加载shellcode免杀-5种方式(VT免杀率8-70)：
+29.远控免杀专题(29)-C#加载shellcode免杀-5种方式(VT免杀率8-70)：[https://mp.weixin.qq.com/s/Kvhfb13d2_D6m-Bu9Darog](https://mp.weixin.qq.com/s/Kvhfb13d2_D6m-Bu9Darog)
 
-30.远控免杀专题(30)-Python加载shellcode免杀-8种方式(VT免杀率10-69)：
+30.远控免杀专题(30)-Python加载shellcode免杀-8种方式(VT免杀率10-69)：[https://mp.weixin.qq.com/s/HyBSqrF_kl2ARaCYAMefgA](https://mp.weixin.qq.com/s/HyBSqrF_kl2ARaCYAMefgA)
 
 31.远控免杀专题(31)-powershell加载shellcode免杀-4种方式(VT免杀率5-58)：
 
@@ -147,31 +164,17 @@
 
 63.远控免杀专题(63)-白名单InfDefaultInstall.exe执行payload：
 
-64.远控免杀专题(64)-Msf自编译免杀补充：[https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg](https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg)
+64.远控免杀专题(64)-其他78个白名单程序：
 
-65.远控免杀专题(65)-工具篇总结：[https://mp.weixin.qq.com/s/WdErH1AOaI3B5Kptu7DK5Q](https://mp.weixin.qq.com/s/WdErH1AOaI3B5Kptu7DK5Q)
+65.远控免杀专题(65)-Msf自编译免杀补充：[https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg](https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg)
+
+66.远控免杀专题(66)-工具篇总结：[https://mp.weixin.qq.com/s/WdErH1AOaI3B5Kptu7DK5Q](https://mp.weixin.qq.com/s/WdErH1AOaI3B5Kptu7DK5Q)
+
+67.远控免杀专题(67)-白名单篇总结：
+
+68.远控免杀专题(68)-终结篇：
 
 
-
-# 免杀能力一览表
-
-
-**1、表中标识 √ 说明相应杀毒软件未检测出病毒，也就是代表了Bypass。**
-
-**2、为了更好的对比效果，大部分测试payload均使用msf的`windows/meterperter/reverse_tcp`模块生成。**
-
-**3、由于本机测试时只是安装了360全家桶和火绒，所以默认情况下360和火绒杀毒情况指的是静态+动态查杀。360杀毒版本`5.0.0.8160`(2020.01.01)，火绒版本`5.0.34.16`(2020.01.01)，360安全卫士`12.0.0.2002`(2020.01.01)。**
-
-**4、其他杀软的检测指标是在`virustotal.com`（简称VT）上在线查杀，所以可能只是代表了静态查杀能力，数据仅供参考，不足以作为杀软查杀能力或免杀能力的判断指标。**
-
-**5、完全不必要苛求一种免杀技术能bypass所有杀软，这样的技术肯定是有的，只是没被公开，一旦公开第二天就能被杀了，其实我们只要能bypass目标主机上的杀软就足够了。**
-
-**6、由于白名单程序加载payload的免杀测试需要杀软的行为检测才合理，静态查杀payload或者查杀白名单程序都没有任何意义，所以这里对白名单程序的免杀效果不做评判。**
-
-![screenshot](images/msnl01.png)
-![screenshot](images/msnl02.png)
-
----
 
 # 关于Tide安全团队
 
