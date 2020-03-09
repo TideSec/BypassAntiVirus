@@ -98,11 +98,11 @@
 
 30.远控免杀专题(30)-Python加载shellcode免杀-8种方式(VT免杀率10-69)：[https://mp.weixin.qq.com/s/HyBSqrF_kl2ARaCYAMefgA](https://mp.weixin.qq.com/s/HyBSqrF_kl2ARaCYAMefgA)
 
-31.远控免杀专题(31)-powershell加载shellcode免杀-4种方式(VT免杀率5-58)：
+31.远控免杀专题(31)-powershell加载shellcode免杀-4种方式(VT免杀率5-58)：[https://mp.weixin.qq.com/s/Tw-FAduHMVzek_YxIErQDQ](https://mp.weixin.qq.com/s/Tw-FAduHMVzek_YxIErQDQ)
 
-32.远控免杀专题(32)-Go加载shellcode免杀-3种方式(VT免杀率7-70)：
+32.远控免杀专题(32)-Go加载shellcode免杀-3种方式(VT免杀率7-70)：[https://mp.weixin.qq.com/s/TmfDQgRfEp2qg9SKbD0Quw](https://mp.weixin.qq.com/s/TmfDQgRfEp2qg9SKbD0Quw)
 
-33.远控免杀专题(33)-Ruby加载shellcode免杀(VT免杀率0-58)：
+33.远控免杀专题(33)-Ruby加载shellcode免杀(VT免杀率0-58)：[https://mp.weixin.qq.com/s/2eF6LklvdGetgbhYWdaFIg](https://mp.weixin.qq.com/s/2eF6LklvdGetgbhYWdaFIg)
 
 34.远控免杀专题(34)-白名单MSBuild.exe执行payload(VT免杀率4-57)：[https://mp.weixin.qq.com/s/1WEglPXm1Q5n6T-c4OhhXA](https://mp.weixin.qq.com/s/1WEglPXm1Q5n6T-c4OhhXA)
 
@@ -164,16 +164,15 @@
 
 63.远控免杀专题(63)-白名单InfDefaultInstall.exe执行payload：
 
-64.远控免杀专题(64)-其他78个白名单程序：
+64.远控免杀专题(64)-Msf自编译免杀补充：[https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg](https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg)
 
-65.远控免杀专题(65)-Msf自编译免杀补充：[https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg](https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg)
+65.远控免杀专题(65)-shellcode免杀实践补充：[https://mp.weixin.qq.com/s/J78CPtHJX5ouN6fxVxMFgg](https://mp.weixin.qq.com/s/J78CPtHJX5ouN6fxVxMFgg)
 
 66.远控免杀专题(66)-工具篇总结：[https://mp.weixin.qq.com/s/WdErH1AOaI3B5Kptu7DK5Q](https://mp.weixin.qq.com/s/WdErH1AOaI3B5Kptu7DK5Q)
 
 67.远控免杀专题(67)-白名单篇总结：
 
 68.远控免杀专题(68)-终结篇：
-
 
 
 # 关于Tide安全团队
