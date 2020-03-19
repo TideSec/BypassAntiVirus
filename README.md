@@ -99,7 +99,7 @@
 
 30.远控免杀专题(30)-Python加载免杀-8种方式(VT免杀率10-69)：[https://mp.weixin.qq.com/s/HyBSqrF_kl2ARaCYAMefgA](https://mp.weixin.qq.com/s/HyBSqrF_kl2ARaCYAMefgA)
 
-31.远控免杀专题(31)-powershell加载免杀-4种方式(VT免杀率5-58)：[https://mp.weixin.qq.com/s/Tw-FAduHMVzek_YxIErQDQ](https://mp.weixin.qq.com/s/Tw-FAduHMVzek_YxIErQDQ)
+31.远控免杀专题(31)-powershell加载-4种方式(VT免杀率5-58)：[https://mp.weixin.qq.com/s/Tw-FAduHMVzek_YxIErQDQ](https://mp.weixin.qq.com/s/Tw-FAduHMVzek_YxIErQDQ)
 
 32.远控免杀专题(32)-Go加载免杀-3种方式(VT免杀率7-70)：[https://mp.weixin.qq.com/s/TmfDQgRfEp2qg9SKbD0Quw](https://mp.weixin.qq.com/s/TmfDQgRfEp2qg9SKbD0Quw)
 
