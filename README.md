@@ -88,39 +88,40 @@
 
 25.远控免杀专题(25)-Winpayloads免杀(VT免杀率18/70)：[https://mp.weixin.qq.com/s/YTXT31mCOWhMZEbCg4Jt0w](https://mp.weixin.qq.com/s/YTXT31mCOWhMZEbCg4Jt0w)
 
-26.远控免杀专题(26)-C、C++加载shellcode免杀(上)(VT免杀率9-70)：[https://mp.weixin.qq.com/s/LftwV4bpuikDklIjuRw2LQ](https://mp.weixin.qq.com/s/LftwV4bpuikDklIjuRw2LQ)
 
-27.远控免杀专题(27)-C、C++加载shellcode免杀(中)(VT免杀率8-70)：[https://mp.weixin.qq.com/s/McVWP386q5in6cQ8hRxwdA](https://mp.weixin.qq.com/s/McVWP386q5in6cQ8hRxwdA)
+26.远控免杀专题(26)-C、C++加载免杀(上)(VT免杀率9-70)：[https://mp.weixin.qq.com/s/LftwV4bpuikDklIjuRw2LQ](https://mp.weixin.qq.com/s/LftwV4bpuikDklIjuRw2LQ)
 
-28.远控免杀专题(28)-C、C++加载shellcode免杀(下)(VT免杀率3-71)：[https://mp.weixin.qq.com/s/Kw3-fdyHyiettYn44WNZQw](https://mp.weixin.qq.com/s/Kw3-fdyHyiettYn44WNZQw)
+27.远控免杀专题(27)-C、C++加载免杀(中)(VT免杀率8-70)：[https://mp.weixin.qq.com/s/McVWP386q5in6cQ8hRxwdA](https://mp.weixin.qq.com/s/McVWP386q5in6cQ8hRxwdA)
 
-29.远控免杀专题(29)-C#加载shellcode免杀-5种方式(VT免杀率8-70)：[https://mp.weixin.qq.com/s/Kvhfb13d2_D6m-Bu9Darog](https://mp.weixin.qq.com/s/Kvhfb13d2_D6m-Bu9Darog)
+28.远控免杀专题(28)-C、C++加载免杀(下)(VT免杀率3-71)：[https://mp.weixin.qq.com/s/Kw3-fdyHyiettYn44WNZQw](https://mp.weixin.qq.com/s/Kw3-fdyHyiettYn44WNZQw)
 
-30.远控免杀专题(30)-Python加载shellcode免杀-8种方式(VT免杀率10-69)：[https://mp.weixin.qq.com/s/HyBSqrF_kl2ARaCYAMefgA](https://mp.weixin.qq.com/s/HyBSqrF_kl2ARaCYAMefgA)
+29.远控免杀专题(29)-C#加载免杀-5种方式(VT免杀率8-70)：[https://mp.weixin.qq.com/s/Kvhfb13d2_D6m-Bu9Darog](https://mp.weixin.qq.com/s/Kvhfb13d2_D6m-Bu9Darog)
 
-31.远控免杀专题(31)-powershell加载shellcode免杀-4种方式(VT免杀率5-58)：[https://mp.weixin.qq.com/s/Tw-FAduHMVzek_YxIErQDQ](https://mp.weixin.qq.com/s/Tw-FAduHMVzek_YxIErQDQ)
+30.远控免杀专题(30)-Python加载免杀-8种方式(VT免杀率10-69)：[https://mp.weixin.qq.com/s/HyBSqrF_kl2ARaCYAMefgA](https://mp.weixin.qq.com/s/HyBSqrF_kl2ARaCYAMefgA)
 
-32.远控免杀专题(32)-Go加载shellcode免杀-3种方式(VT免杀率7-70)：[https://mp.weixin.qq.com/s/TmfDQgRfEp2qg9SKbD0Quw](https://mp.weixin.qq.com/s/TmfDQgRfEp2qg9SKbD0Quw)
+31.远控免杀专题(31)-powershell加载免杀-4种方式(VT免杀率5-58)：[https://mp.weixin.qq.com/s/Tw-FAduHMVzek_YxIErQDQ](https://mp.weixin.qq.com/s/Tw-FAduHMVzek_YxIErQDQ)
 
-33.远控免杀专题(33)-Ruby加载shellcode免杀(VT免杀率0-58)：[https://mp.weixin.qq.com/s/2eF6LklvdGetgbhYWdaFIg](https://mp.weixin.qq.com/s/2eF6LklvdGetgbhYWdaFIg)
+32.远控免杀专题(32)-Go加载免杀-3种方式(VT免杀率7-70)：[https://mp.weixin.qq.com/s/TmfDQgRfEp2qg9SKbD0Quw](https://mp.weixin.qq.com/s/TmfDQgRfEp2qg9SKbD0Quw)
 
-34.远控免杀专题(34)-白名单MSBuild.exe执行payload(VT免杀率4-57)：[https://mp.weixin.qq.com/s/1WEglPXm1Q5n6T-c4OhhXA](https://mp.weixin.qq.com/s/1WEglPXm1Q5n6T-c4OhhXA)
+33.远控免杀专题(33)-Ruby加载免杀(VT免杀率0-58)：[https://mp.weixin.qq.com/s/2eF6LklvdGetgbhYWdaFIg](https://mp.weixin.qq.com/s/2eF6LklvdGetgbhYWdaFIg)
 
-35.远控免杀专题(35)-白名单Msiexec.exe执行payload(VT免杀率27-60)：[https://mp.weixin.qq.com/s/XPrBK1Yh5ggO-PeK85mqcg](https://mp.weixin.qq.com/s/XPrBK1Yh5ggO-PeK85mqcg)
+34.远控免杀专题(34)-白名单MSBuild.exe(VT免杀率4-57)：[https://mp.weixin.qq.com/s/1WEglPXm1Q5n6T-c4OhhXA](https://mp.weixin.qq.com/s/1WEglPXm1Q5n6T-c4OhhXA)
 
-36.远控免杀专题(36)-白名单InstallUtil.exe执行payload(VT免杀率3-68)：[https://mp.weixin.qq.com/s/gN2p3ZHODZFia2761BVSzg](https://mp.weixin.qq.com/s/gN2p3ZHODZFia2761BVSzg)
+35.远控免杀专题(35)-白名单Msiexec.exe(VT免杀率27-60)：[https://mp.weixin.qq.com/s/XPrBK1Yh5ggO-PeK85mqcg](https://mp.weixin.qq.com/s/XPrBK1Yh5ggO-PeK85mqcg)
 
-37.远控免杀专题(37)-白名单Mshta.exe执行payload(VT免杀率26-58)：[https://mp.weixin.qq.com/s/oBr-syv2ef5IjeGFrs7sHg](https://mp.weixin.qq.com/s/oBr-syv2ef5IjeGFrs7sHg)
+36.远控免杀专题(36)-白名单InstallUtil.exe(VT免杀率3-68)：[https://mp.weixin.qq.com/s/gN2p3ZHODZFia2761BVSzg](https://mp.weixin.qq.com/s/gN2p3ZHODZFia2761BVSzg)
 
-38.远控免杀专题(38)-白名单Rundll32.exe执行payload(VT免杀率22-58)：[https://mp.weixin.qq.com/s/rmC4AWC6HmcphozfEZhRGA](https://mp.weixin.qq.com/s/rmC4AWC6HmcphozfEZhRGA)
+37.远控免杀专题(37)-白名单Mshta.exe(VT免杀率26-58)：[https://mp.weixin.qq.com/s/oBr-syv2ef5IjeGFrs7sHg](https://mp.weixin.qq.com/s/oBr-syv2ef5IjeGFrs7sHg)
 
-39.远控免杀专题(39)-白名单Regsvr32.exe执行payload(VT免杀率18-58)：[https://mp.weixin.qq.com/s/6v8w2YZLxHJFnXb-IbnYAA](https://mp.weixin.qq.com/s/6v8w2YZLxHJFnXb-IbnYAA)
+38.远控免杀专题(38)-白名单Rundll32.exe(VT免杀率22-58)：[https://mp.weixin.qq.com/s/rmC4AWC6HmcphozfEZhRGA](https://mp.weixin.qq.com/s/rmC4AWC6HmcphozfEZhRGA)
 
-40.远控免杀专题(40)-白名单Cmstp.exe执行payload(VT查杀率为21-57)：[https://mp.weixin.qq.com/s/tgtvOMDGlKFwdRQEnKJf5Q](https://mp.weixin.qq.com/s/tgtvOMDGlKFwdRQEnKJf5Q)
+39.远控免杀专题(39)-白名单Regsvr32.exe(VT免杀率18-58)：[https://mp.weixin.qq.com/s/6v8w2YZLxHJFnXb-IbnYAA](https://mp.weixin.qq.com/s/6v8w2YZLxHJFnXb-IbnYAA)
+
+40.远控免杀专题(40)-白名单Cmstp.exe(VT查杀率为21-57)：[https://mp.weixin.qq.com/s/tgtvOMDGlKFwdRQEnKJf5Q](https://mp.weixin.qq.com/s/tgtvOMDGlKFwdRQEnKJf5Q)
 
 41.远控免杀专题(41)-白名单Ftp.exe执行payload：
 
-42.远控免杀专题(42)-白名单Regasm.exe-Regsvcs.exe执行payload：
+42.远控免杀专题(42)-白名单Regasm.exe/Regsvcs.exe执行payload：
 
 43.远控免杀专题(43)-白名单Compiler.exe执行payload：
 
