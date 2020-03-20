@@ -119,29 +119,29 @@
 
 40.远控免杀专题(40)-白名单Cmstp.exe(VT查杀率为21-57)：[https://mp.weixin.qq.com/s/tgtvOMDGlKFwdRQEnKJf5Q](https://mp.weixin.qq.com/s/tgtvOMDGlKFwdRQEnKJf5Q)
 
-41.远控免杀专题(41)-白名单Ftp.exe执行payload：
+41.远控免杀专题(41)-白名单Ftp.exe执行payload：[https://mp.weixin.qq.com/s/rnmCIx5oxA9z-0OfjoUAVw](https://mp.weixin.qq.com/s/rnmCIx5oxA9z-0OfjoUAVw)
 
-42.远控免杀专题(42)-白名单Regasm.exe/Regsvcs.exe执行payload：
+42.远控免杀专题(42)-白名单Regasm.exe-Regsvcs.exe执行payload：[https://mp.weixin.qq.com/s/MCMjxPdUNdwV8is04AklLA](https://mp.weixin.qq.com/s/MCMjxPdUNdwV8is04AklLA)
 
-43.远控免杀专题(43)-白名单Compiler.exe执行payload：
+43.远控免杀专题(43)-白名单Compiler.exe执行payload：[https://mp.weixin.qq.com/s/Sm_3cJlSk6Pud1CLp-eAEQ](https://mp.weixin.qq.com/s/Sm_3cJlSk6Pud1CLp-eAEQ)
 
-44.远控免杀专题(44)-白名单MavInject.exe执行payload：
+44.远控免杀专题(44)-白名单MavInject.exe执行payload：[https://mp.weixin.qq.com/s/dPOGj1VLhqwxJ0e-gOs8vA](https://mp.weixin.qq.com/s/dPOGj1VLhqwxJ0e-gOs8vA)
 
-45.远控免杀专题(45)-白名单presentationhost.exe执行payload：
+45.远控免杀专题(45)-白名单presentationhost.exe执行payload：[https://mp.weixin.qq.com/s/r9l5Lh6MHv-Ece2DFr3EsA](https://mp.weixin.qq.com/s/r9l5Lh6MHv-Ece2DFr3EsA)
 
-46.远控免杀专题(46)-白名单IEexec.exe执行payload：
+46.远控免杀专题(46)-白名单IEexec.exe执行payload：[https://mp.weixin.qq.com/s/wVbFrU9cE3hCYAENjmnSUQ](https://mp.weixin.qq.com/s/wVbFrU9cE3hCYAENjmnSUQ)
 
-47.远控免杀专题(47)-白名单winrm.vbs、slmgr.vbs执行payload：
+47.远控免杀专题(47)-白名单winrm.vbs、slmgr.vbs执行payload：[https://mp.weixin.qq.com/s/B3oiMrEB98jtm4DvD2t2tQ](https://mp.weixin.qq.com/s/B3oiMrEB98jtm4DvD2t2tQ)
 
-48.远控免杀专题(48)-白名单pubprn.vbs执行payload：
+48.远控免杀专题(48)-白名单pubprn.vbs执行payload：[https://mp.weixin.qq.com/s/btiaVMBPxfxG4oXPa7__kw](https://mp.weixin.qq.com/s/btiaVMBPxfxG4oXPa7__kw)
 
-49.远控免杀专题(49)-白名单Xwizard.exe执行payload：
+49.远控免杀专题(49)-白名单Xwizard.exe执行payload：[https://mp.weixin.qq.com/s/8gaweOqkOrT77riaevvFUg](https://mp.weixin.qq.com/s/8gaweOqkOrT77riaevvFUg)
 
-50.远控免杀专题(50)-白名单winword.exe执行payload：
+50.远控免杀专题(50)-白名单winword.exe执行payload：[https://mp.weixin.qq.com/s/qXWK5i2cDaletSzkAEzL3w](https://mp.weixin.qq.com/s/qXWK5i2cDaletSzkAEzL3w)
 
-51.远控免杀专题(51)-白名单msdeloy.exe执行payload：
+51.远控免杀专题(51)-白名单msdeloy.exe执行payload：[https://mp.weixin.qq.com/s/1oEzadXZxd3JukrBhNxxyw](https://mp.weixin.qq.com/s/1oEzadXZxd3JukrBhNxxyw)
 
-52.远控免杀专题(52)-白名单psexec.exe执行payload：
+52.远控免杀专题(52)-白名单psexec.exe执行payload：[https://mp.weixin.qq.com/s/JdOmlqif67GcSqZuuGPz0Q](https://mp.weixin.qq.com/s/JdOmlqif67GcSqZuuGPz0Q)
 
 53.远控免杀专题(53)-白名单WMIC.exe执行payload：
 
