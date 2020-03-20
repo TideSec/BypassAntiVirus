@@ -121,7 +121,7 @@
 
 41.远控免杀专题(41)-白名单Ftp.exe执行payload：[https://mp.weixin.qq.com/s/rnmCIx5oxA9z-0OfjoUAVw](https://mp.weixin.qq.com/s/rnmCIx5oxA9z-0OfjoUAVw)
 
-42.远控免杀专题(42)-白名单Regasm.exe-Regsvcs.exe执行payload：[https://mp.weixin.qq.com/s/MCMjxPdUNdwV8is04AklLA](https://mp.weixin.qq.com/s/MCMjxPdUNdwV8is04AklLA)
+42.远控免杀专题(42)-白名单Regasm/Regsvcs执行payload：[https://mp.weixin.qq.com/s/MCMjxPdUNdwV8is04AklLA](https://mp.weixin.qq.com/s/MCMjxPdUNdwV8is04AklLA)
 
 43.远控免杀专题(43)-白名单Compiler.exe执行payload：[https://mp.weixin.qq.com/s/Sm_3cJlSk6Pud1CLp-eAEQ](https://mp.weixin.qq.com/s/Sm_3cJlSk6Pud1CLp-eAEQ)
 
@@ -131,7 +131,7 @@
 
 46.远控免杀专题(46)-白名单IEexec.exe执行payload：[https://mp.weixin.qq.com/s/wVbFrU9cE3hCYAENjmnSUQ](https://mp.weixin.qq.com/s/wVbFrU9cE3hCYAENjmnSUQ)
 
-47.远控免杀专题(47)-白名单winrm.vbs、slmgr.vbs执行payload：[https://mp.weixin.qq.com/s/B3oiMrEB98jtm4DvD2t2tQ](https://mp.weixin.qq.com/s/B3oiMrEB98jtm4DvD2t2tQ)
+47.远控免杀专题(47)-白名单winrm.vbs/slmgr.vbs执行payload：[https://mp.weixin.qq.com/s/B3oiMrEB98jtm4DvD2t2tQ](https://mp.weixin.qq.com/s/B3oiMrEB98jtm4DvD2t2tQ)
 
 48.远控免杀专题(48)-白名单pubprn.vbs执行payload：[https://mp.weixin.qq.com/s/btiaVMBPxfxG4oXPa7__kw](https://mp.weixin.qq.com/s/btiaVMBPxfxG4oXPa7__kw)
 
