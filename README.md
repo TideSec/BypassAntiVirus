@@ -117,11 +117,11 @@
 
 39.远控免杀专题(39)-白名单Regsvr32.exe(VT免杀率18-58)：[https://mp.weixin.qq.com/s/6v8w2YZLxHJFnXb-IbnYAA](https://mp.weixin.qq.com/s/6v8w2YZLxHJFnXb-IbnYAA)
 
-40.远控免杀专题(40)-白名单Cmstp.exe(VT查杀率为21-57)：[https://mp.weixin.qq.com/s/tgtvOMDGlKFwdRQEnKJf5Q](https://mp.weixin.qq.com/s/tgtvOMDGlKFwdRQEnKJf5Q)
+40.远控免杀专题(40)-白名单Cmstp.exe执行payload(VT查杀率为21-57)：[https://mp.weixin.qq.com/s/tgtvOMDGlKFwdRQEnKJf5Q](https://mp.weixin.qq.com/s/tgtvOMDGlKFwdRQEnKJf5Q)
 
 41.远控免杀专题(41)-白名单Ftp.exe执行payload：[https://mp.weixin.qq.com/s/rnmCIx5oxA9z-0OfjoUAVw](https://mp.weixin.qq.com/s/rnmCIx5oxA9z-0OfjoUAVw)
 
-42.远控免杀专题(42)-白名单Regasm/Regsvcs执行payload：[https://mp.weixin.qq.com/s/MCMjxPdUNdwV8is04AklLA](https://mp.weixin.qq.com/s/MCMjxPdUNdwV8is04AklLA)
+42.远控免杀专题(42)-白名单Regasm.exe-Regsvcs.exe执行payload：[https://mp.weixin.qq.com/s/MCMjxPdUNdwV8is04AklLA](https://mp.weixin.qq.com/s/MCMjxPdUNdwV8is04AklLA)
 
 43.远控免杀专题(43)-白名单Compiler.exe执行payload：[https://mp.weixin.qq.com/s/Sm_3cJlSk6Pud1CLp-eAEQ](https://mp.weixin.qq.com/s/Sm_3cJlSk6Pud1CLp-eAEQ)
 
@@ -131,7 +131,7 @@
 
 46.远控免杀专题(46)-白名单IEexec.exe执行payload：[https://mp.weixin.qq.com/s/wVbFrU9cE3hCYAENjmnSUQ](https://mp.weixin.qq.com/s/wVbFrU9cE3hCYAENjmnSUQ)
 
-47.远控免杀专题(47)-白名单winrm.vbs/slmgr.vbs执行payload：[https://mp.weixin.qq.com/s/B3oiMrEB98jtm4DvD2t2tQ](https://mp.weixin.qq.com/s/B3oiMrEB98jtm4DvD2t2tQ)
+47.远控免杀专题(47)-白名单winrm.vbs、slmgr.vbs执行payload：[https://mp.weixin.qq.com/s/B3oiMrEB98jtm4DvD2t2tQ](https://mp.weixin.qq.com/s/B3oiMrEB98jtm4DvD2t2tQ)
 
 48.远控免杀专题(48)-白名单pubprn.vbs执行payload：[https://mp.weixin.qq.com/s/btiaVMBPxfxG4oXPa7__kw](https://mp.weixin.qq.com/s/btiaVMBPxfxG4oXPa7__kw)
 
@@ -143,27 +143,27 @@
 
 52.远控免杀专题(52)-白名单psexec.exe执行payload：[https://mp.weixin.qq.com/s/JdOmlqif67GcSqZuuGPz0Q](https://mp.weixin.qq.com/s/JdOmlqif67GcSqZuuGPz0Q)
 
-53.远控免杀专题(53)-白名单WMIC.exe执行payload：
+53.远控免杀专题(53)-白名单WMIC.exe执行payload：[https://mp.weixin.qq.com/s/QNqM8Vdlu-SOP7ZqnRWY3w](https://mp.weixin.qq.com/s/QNqM8Vdlu-SOP7ZqnRWY3w)
 
-54.远控免杀专题(54)-白名单SyncAppvPublishingServer.vbs执行payload：
+54.远控免杀专题(54)-白名单SyncAppvPublishingServer.vbs执行payload：[https://mp.weixin.qq.com/s/Ud7TbeMJb8fsRlaGHWhBww](https://mp.weixin.qq.com/s/Ud7TbeMJb8fsRlaGHWhBww)
 
-55.远控免杀专题(55)-白名单Pcalua.exe执行payload：
+55.远控免杀专题(55)-白名单Pcalua.exe执行payload：[https://mp.weixin.qq.com/s/Aj9A5_LRS_uX8XN1rdUobQ](https://mp.weixin.qq.com/s/Aj9A5_LRS_uX8XN1rdUobQ)
 
-56.远控免杀专题(56)-白名单zipfldr.dll执行payload：
+56.远控免杀专题(56)-白名单zipfldr.dll执行payload：[https://mp.weixin.qq.com/s/-qPVenI_lk-ZnMA4j9XNRQ](https://mp.weixin.qq.com/s/-qPVenI_lk-ZnMA4j9XNRQ)
 
-57.远控免杀专题(57)-白名单Url.dll执行payload：
+57.远控免杀专题(57)-白名单Url.dll执行payload：[https://mp.weixin.qq.com/s/GzoYvfj7NkXe_nc8eOVEBQ](https://mp.weixin.qq.com/s/GzoYvfj7NkXe_nc8eOVEBQ)
 
-58.远控免杀专题(58)-白名单DiskShadow.exe执行payload：
+58.远控免杀专题(58)-白名单DiskShadow.exe执行payload：[https://mp.weixin.qq.com/s/pr0KYjk80YIk4qJO5h3Yaw](https://mp.weixin.qq.com/s/pr0KYjk80YIk4qJO5h3Yaw)
 
-59.远控免杀专题(59)-白名单Odbcconf.exe执行payload：
+59.远控免杀专题(59)-白名单Odbcconf.exe执行payload：[https://mp.weixin.qq.com/s/uOwqbW0nkG776zZz6O_WFA](https://mp.weixin.qq.com/s/uOwqbW0nkG776zZz6O_WFA)
 
-60.远控免杀专题(60)-白名单Forfiles.exe执行payload：
+60.远控免杀专题(60)-白名单Forfiles.exe执行payload：[https://mp.weixin.qq.com/s/1-HyeNrd4IXQYsyG6dHQkw](https://mp.weixin.qq.com/s/1-HyeNrd4IXQYsyG6dHQkw)
 
-61.远控免杀专题(61)-白名单Te.exe执行payload：
+61.远控免杀专题(61)-白名单Te.exe执行payload：[https://mp.weixin.qq.com/s/m37wm620qQ1xw4BN2hGOpg](https://mp.weixin.qq.com/s/m37wm620qQ1xw4BN2hGOpg)
 
-62.远控免杀专题(62)-白名单CScript.exe-WScript.exe执行payload：
+62.远控免杀专题(62)-白名单CScript.exe-WScript.exe执行payload：[https://mp.weixin.qq.com/s/jzWHq7Yc1UjOwnXulIAPKQ](https://mp.weixin.qq.com/s/jzWHq7Yc1UjOwnXulIAPKQ)
 
-63.远控免杀专题(63)-白名单InfDefaultInstall.exe执行payload：
+63.远控免杀专题(63)-白名单InfDefaultInstall.exe执行payload：[https://mp.weixin.qq.com/s/mrtX4ayCXJJ1LPfBlSuvHw](https://mp.weixin.qq.com/s/mrtX4ayCXJJ1LPfBlSuvHw)
 
 64.远控免杀专题(64)-Msf自编译免杀补充：[https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg](https://mp.weixin.qq.com/s/HsIqUKl7j1WJ4yyYzXdPZg)
 
