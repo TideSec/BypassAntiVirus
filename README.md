@@ -14,7 +14,7 @@
 
 - **代码篇内容**：C/C++、C#、python、powershell、ruby、go等。
 
-- **白名单内容**：总计涉及113个白名单程序，包括MSBuild.exe、Msiexec.exe、InstallUtil.exe、Mshta.exe、Rundll32.exe、Regsvr32.exe、Cmstp.exe、Ftp.exe、Regasm.exe、Regsvcs.exe、Compiler.exe、MavInject.exe、presentationhost.exe、IEexec.exe、winrm.vbs、slmgr.vbs、pubprn.vbs、Xwizard.exe、winword.exe、msdeloy.exe、psexec.exe、WMIC.exe、SyncAppvPublishingServer.vbs、Pcalua.exe、zipfldr.dll、Url.dll、DiskShadow.exe、Odbcconf.exe、Forfiles.exe、Te.exe、CScript.exe、WScript.exe、InfDefaultInstall.exe等。
+- **白名单内容**：总计涉及113个白名单程序，包括Rundll32.exe、Msiexec.exe、MSBuild.exe、InstallUtil.exe、Mshta.exe、Regsvr32.exe、Cmstp.exe、CScript.exe、WScript.exe、Forfiles.exe、te.exe、Odbcconf.exe、InfDefaultInstall.exe、Diskshadow.exe、PsExec.exe、Msdeploy.exe、Winword.exe、Regasm.exe、Regsvcs.exe、Ftp.exe、pubprn.vbs、winrm.vbs、slmgr.vbs、Xwizard.exe、Compiler.exe、IEExec.exe、MavInject32、Presentationhost.exe、Wmic.exe、Pcalua.exe、Url.dll、zipfldr.dll、Syncappvpublishingserver.vbs等。
 
 **已完成的免杀文章及相关软件下载：[`https://github.com/TideSec/BypassAntiVirus`](https://github.com/TideSec/BypassAntiVirus)**
 
