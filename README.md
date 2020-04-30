@@ -177,8 +177,9 @@
 
 69.远控免杀专题(69)-Mimikatz免杀实践(下)：[https://mp.weixin.qq.com/s/0p88rj-tWClLa_geKMkPgw](https://mp.weixin.qq.com/s/0p88rj-tWClLa_geKMkPgw)
 
-70.远控免杀专题(70)-终结篇：本文
+70.远控免杀专题(70)-终结篇：本文   
 
+**完结！撒花~**
 
 # 关于Tide安全团队
 
