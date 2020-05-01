@@ -20,6 +20,10 @@
 
 **已完成的免杀文章及相关软件下载：[`https://github.com/TideSec/BypassAntiVirus`](https://github.com/TideSec/BypassAntiVirus)**
 
+**远控免杀系列文章打包及配套工具百度网盘下载**：
+链接: [https://pan.baidu.com/s/1YKbNHzWudMwjGx-3_7KZxw](https://pan.baidu.com/s/1YKbNHzWudMwjGx-3_7KZxw) 提取码: 5q5q
+解压密码为www.tidesec.com
+
 # 免杀能力一览表
 
 
