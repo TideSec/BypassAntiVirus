@@ -180,7 +180,6 @@
 69.远控免杀专题(69)-Mimikatz免杀实践(下)：[https://mp.weixin.qq.com/s/0p88rj-tWClLa_geKMkPgw](https://mp.weixin.qq.com/s/0p88rj-tWClLa_geKMkPgw)
 
 70.远控免杀专题(70)-终结篇：[https://mp.weixin.qq.com/s/4shT8tP-Gu3XX7fnWKQHAA](https://mp.weixin.qq.com/s/4shT8tP-Gu3XX7fnWKQHAA)
- 
 
 **完结！撒花~**
 
