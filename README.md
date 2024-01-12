@@ -4,7 +4,9 @@
 
 **郑重声明：文中所涉及的技术、思路和工具仅供以安全为目的的学习交流使用，任何人不得将其用于非法用途以及盈利等目的，否则后果自行承担！**
 
-**本专题文章在线文库：[https://www.yuque.com/tidesec/bypassav](https://www.yuque.com/tidesec/bypassav)** 
+**本专题文章在线文库：[http://wiki.tidesec.com/docs/bypassav](http://wiki.tidesec.com/docs/bypassav)** 
+
+**潮影在线免杀平台：[http://bypass.tidesec.com/](http://bypass.tidesec.com/)** 
 
 ---
 
@@ -186,6 +188,22 @@
 69.远控免杀专题(69)-Mimikatz免杀实践(下)：[https://mp.weixin.qq.com/s/0p88rj-tWClLa_geKMkPgw](https://mp.weixin.qq.com/s/0p88rj-tWClLa_geKMkPgw)
 
 70.远控免杀专题(70)-终结篇：[https://mp.weixin.qq.com/s/4shT8tP-Gu3XX7fnWKQHAA](https://mp.weixin.qq.com/s/4shT8tP-Gu3XX7fnWKQHAA)
+
+71.远控免杀专题(71)-Donut免杀任意可执行文件： [https://mp.weixin.qq.com/s/DoWRTIIBwuvzRd59wIWpXw](https://mp.weixin.qq.com/s/DoWRTIIBwuvzRd59wIWpXw)
+
+72.远控免杀专题(72)-sRDI反射型DLL注入免杀: [https://mp.weixin.qq.com/s/GeR1Uc2zmdoHUD1m4PUPkA](https://mp.weixin.qq.com/s/GeR1Uc2zmdoHUD1m4PUPkA)
+
+73.远控免杀专题(73)-使用stager.dll的多种免杀方式: [https://mp.weixin.qq.com/s/23fZTmpT7YVkguvHfXC57Q](https://mp.weixin.qq.com/s/23fZTmpT7YVkguvHfXC57Q)
+
+74.远控免杀专题(74)-基于Go的条件触发式免杀: [https://mp.weixin.qq.com/s/td9_TFaM8svEmq4uBWxBXg](https://mp.weixin.qq.com/s/td9_TFaM8svEmq4uBWxBXg)
+
+75.远控免杀专题(75)-基于Go的沙箱检测: [https://mp.weixin.qq.com/s/I04c944ED0UBWY8_Hq0t0g](https://mp.weixin.qq.com/s/I04c944ED0UBWY8_Hq0t0g)
+
+76.远控免杀专题(76)-基于Go的各种API免杀测试: [https://mp.weixin.qq.com/s/c4LkV7PdzaXYH7H1Ix6mcA](https://mp.weixin.qq.com/s/c4LkV7PdzaXYH7H1Ix6mcA)
+
+77.远控免杀专题(77)-基于Go的免杀总结: [https://mp.weixin.qq.com/s/yxDYccGRgUayd4XeHkrNQg](https://mp.weixin.qq.com/s/yxDYccGRgUayd4XeHkrNQg)
+
+78.潮影在线免杀平台上线:  [https://mp.weixin.qq.com/s/nuUg8lOdghdcI5egMqzD0A](https://mp.weixin.qq.com/s/nuUg8lOdghdcI5egMqzD0A)
 
 **完结！撒花~**
 
